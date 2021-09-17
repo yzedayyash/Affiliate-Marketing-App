@@ -3,25 +3,25 @@
 create .env file with context of .env.example
 put your Database Credintals in
 
-``` bash
+``` 
 DB_DATABASE=test
 DB_USERNAME=root
 DB_PASSWORD=
 ```
-run ```bash
+run ```
  composer install
   ``` 
 
-  run ```bash
+  run ```
  php artisan migrate 
   ``` 
-  run ```bash
+  run ```
  php artisan db::seed 
   ``` 
 ## Usage
 
 login as User using any email that generated from faker
-``` bash
+``` 
 password: password 
 ```
 Here you can see User Referral Code , 
@@ -33,7 +33,8 @@ on any time you can go to {https://URL/logout } to logout!
 ## Admin Panel 
 
 login as Admin using:
-``` bash
+``` 
+
 email: admin@admin.com
 password: password 
 ```
@@ -42,7 +43,7 @@ here you can see how many users that you have with count  of referred users
 
 ### Testing
 
-``` bash
+``` 
 php artisan test 
 ```
 
