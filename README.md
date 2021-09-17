@@ -8,14 +8,17 @@ DB_DATABASE=test
 DB_USERNAME=root
 DB_PASSWORD=
 ```
-run ```
+run 
+```
  composer install
   ``` 
 
-  run ```
+  run
+   ```
  php artisan migrate 
   ``` 
-  run ```
+  run
+   ```
  php artisan db::seed 
   ``` 
 ## Usage
